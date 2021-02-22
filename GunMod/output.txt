@@ -1,0 +1,68 @@
+Stopping any running daemons:
+Stopping Daemon(s)
+1 Daemon stopped
+Cleaning the gradle cache:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.10.3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Java: 1.8.0_282 JVM: 25.282-b08(AdoptOpenJDK) Arch: amd64
+New Dep: net.minecraftforge:forge:1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 8s
+1 actionable task: 1 executed
+Generating all of the run files:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.10.3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Java: 1.8.0_282 JVM: 25.282-b08(AdoptOpenJDK) Arch: amd64
+New Dep: net.minecraftforge:forge:1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3
+
+> Task :genEclipseRuns
+Setting up MCP environment
+Initializing steps
+Executing steps
+ > Running 'downloadManifest'
+ > Running 'downloadJson'
+ > Running 'downloadClient'
+ > Running 'downloadServer'
+ > Running 'stripClient'
+ > Running 'stripServer'
+ > Running 'merge'
+ > Running 'rename'
+ > Running 'mcinject'
+ > Running 'listLibraries'
+ > Running 'AccessTransformer'
+ > Running 'SideStripper'
+ > Running 'decompile'
+ > Running 'inject'
+ > Running 'patch'
+MCP environment setup is complete
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 16s
+8 actionable tasks: 8 executed
+Generating Eclipse Project files:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.10.3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+Java: 1.8.0_282 JVM: 25.282-b08(AdoptOpenJDK) Arch: amd64
+New Dep: net.minecraftforge:forge:1.16.5-36.0.42_mapped_snapshot_20201028-1.16.3
+
+> Task :eclipseClasspath
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 53s
+10 actionable tasks: 6 executed, 4 up-to-date
